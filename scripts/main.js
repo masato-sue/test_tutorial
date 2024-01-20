@@ -29,4 +29,6 @@ if (!localStorage.getItem("name")){
     myHeading.textContent=`${storedName}さん、githubにはもう慣れた？`;
 }
 
-myButton.onclick=setUserName();
+myButton.onclick = function (){
+    setUserName();
+};
