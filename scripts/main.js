@@ -1,6 +1,6 @@
 const myHeading = document.querySelector("h1");
 myHeading.textContent ="Hello world!";
 
-document.querySelector("html").addventListener("click",function(){
+document.querySelector("html").addEventListener("click",function(){
     alert("痛っ！つつかないで！");
 });
