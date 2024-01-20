@@ -1,7 +1,7 @@
 html {
     font-size: 10px; /* px は「ピクセル」 (pixels) の意味。ベースフォントサイズは 10 ピクセルの高さになった */
     font-family: "Open Sans", sans-serif; /* これが Google フォントから取得した残りの出力になるはず。 */
-    background-color: #1d5488;      
+    background-color: #c599b8;      
 }
 
 h1 {
@@ -9,7 +9,7 @@ h1 {
     text-align: center;
     margin:0;
     padding:20px 0;
-    color:#00539f;
+    color:#1277c9bd;
     text-shadow: 3px 3px 1px black;
 }
   
@@ -22,7 +22,7 @@ li {
 body {
     width: 600px;
     margin: 0 auto;
-    background-color: #ff9500;
+    background-color: #12d128c3;
     padding: 0 20px 20px 20px;
     border: 5px solid black;
 }
