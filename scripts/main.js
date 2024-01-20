@@ -20,15 +20,15 @@ function setUserName(){
     localStorage.setItem("name",myName);
     myHeading.textContent=`${myName}さん、github使ってる？`;
     }
-}
+};
 
 if (!localStorage.getItem("name")){
     setUserName();
 }else{
     const storedName=localStorage.getItem("name");
     myHeading.textContent=`${storedName}さん、githubにはもう慣れた？`;
-}
+};
 
-myButton.onclick = function (){
+myButton.onclick = () => {
     setUserName();
 };
